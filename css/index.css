@@ -80,15 +80,63 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom2-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.flex-images{
+    margin-bottom:5px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border-color: black;
+}
+.text-container{
+    padding:10px;
+}
 
 header {
     width: 100%;
     display: flex;
+    margin-top: 20px;
     margin-bottom:45px;
 }
 
@@ -116,6 +164,13 @@ header nav a:hover {
 
 .jumbo{
     margin-bottom: 20px;
+}
+
+.flex-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
 }
 
 .middle-content {
