@@ -89,10 +89,16 @@ p {
 header {
     width: 100%;
     display: flex;
+    margin-bottom:45px;
+}
+
+.lambda-logo{
+    margin-right: 40px;
 }
 
 header nav {
-    margin-top: 40px; 
+    margin-top: 22px; 
+    margin-right: 19px;
     width: 610px;
     justify-content: space-between;
     display: flex;
@@ -106,6 +112,10 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
     color: black;
+}
+
+.jumbo{
+    margin-bottom: 20px;
 }
 
 .middle-content {
